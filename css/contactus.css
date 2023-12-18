@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(21, 21, 41);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    padding-left: 20px;
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+    font-weight: bolder;
+ background: linear-gradient(to right, rgb(197, 4, 4) 0%, rgb(176, 123, 18) 20%, rgb(169, 49, 67) 61%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+.social ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 60px;
+ 
+ 
+    padding-top: 20px;
+    list-style: none;
+    color: pink;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Righteous', sans-serif;;
+}
+
+
+
+.container{
+    /* border: 1px solid green; */
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.contact{
+    width: 90vw;
+    height: 50vh;
+    margin-top: 20%;
+    position: relative;
+    right: 70%;
+    padding: 30px;
+    display: block; 
+    /* border: 1px solid green; */
+}
+
+.contact,h1,p{
+    display: flex;
+    padding: 10px;
+    color: pink;
+    /* flex-direction: row; */
+    /* border: 10px solid green; */
+    /* justify-content: space-between; */
+}
+.icons{
+    margin-left: 40px;
+
+}
+
+.contact, label{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+#form{
+    /* border: 10px solid grey; */
+    width: 58%;
+    position: relative;
+    left: 40%;
+    color: pink;
+    bottom: 120%;
+    border: 1px solid green;
+    /* background-color: white; */
+    box-shadow: 4px 5px 6px rgb(6, 6, 18);
+}
+label{
+    color: rgb(5, 5, 29);
+}
+
+form,label{
+    background-color: pink;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input .placeholder{
+    color: green;
+}
+
+input,textarea{
+    height: 45px; 
+    border: none;
+    width: 52%;
+    background-color: beige;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 1px rgb(5, 5, 16);
+    border-bottom: 2px solid black;
+    
+}
+
+
+textarea{
+    resize: none;
+    height: 80px;
+    width: 52%;
+    border: none;
+   border-bottom: 2px solid black;
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    border: 2px solid grey;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: orange;
+}
+
+@media screen and (max-width:950px) {
+    .social{
+        display: none;
+    }    
+
+    .logo{
+        font-size: 40px;
+       
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 90%;
+    }
+
+    #form{
+        /* border: 2px solid green; */
+        margin-left: 290px;
+    }
+
+    .container p ,h1, .icons{
+        margin-left: 35%;
+        /* border: 3px solid green; */
+    }
+
+    .successful h1{
+        border: 3px solid beige;
+        margin-right: 80px;
+    }
+ 
+}
+   @media screen and (max-width: 400px) {
+      #form{
+        height: 130%;
+        width: 200px;
+        margin-top: 90px;
+      }
+
+      label, input{
+        height: 40px;
+        font-size: 10px;
+
+      }
+
+      input{
+        width: 100px;
+      }
+      textarea{
+        width: 150px;
+      }
+    .container h1{
+        padding-left: 204px;
+      font-size: 10px;
+    }
+    .container p{
+        padding-left: 183px;
+        font-size: 10px;
+    }
+
+    .icons{
+        padding-left: 203px;
+    }
+h1{
+    font-size: 20px;
+}
+
+   }
+
+ .title{
+    /* border: 2px solid gainsboro; */
+    position: relative;
+    left: 40%;
+
+    font-size: 30px;
+    
+    font-family: 'Cookie', cursive;
+    font-weight: bolder;
+ background: linear-gradient(to right, rgb(197, 4, 4) 0%, rgb(176, 123, 18) 20%, rgb(169, 49, 67) 61%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}  
+ 
+
+   .successful{
+
+     position: relative;
+     left: 30%;
+     top: 40px;
+     padding: 80px;
+     bottom: 50px;
+     width: 40%;
+     height: 20px;
+     box-shadow: 15px 25px 15px 5px ;
+
+   }
+
+   .successful h1{
+    text-align: center;
+    position: relative;
+    left: 34%;
+    bottom: 54px;
+    /* top: 52%; */
+    height: 40px;
+    width: 40%;
+
+   }
+
+   #back{
+    /* border: 3px solid blue; */
+    height: 40px;
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 200px;
+   }

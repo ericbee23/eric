@@ -1,0 +1,353 @@
+
+
+*{  
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background:rgb(3, 3, 42) ;
+    }
+
+
+.logo{
+    padding-left: 20px;
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+    font-weight: bolder;
+ background: linear-gradient(to right, rgb(197, 4, 4) 0%, rgb(176, 123, 18) 20%, rgb(169, 49, 67) 61%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+    color: pink;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Righteous', sans-serif;;
+}
+/* header is the container */
+li:hover{
+   color: orange;
+}
+.logline{
+    margin: auto;   
+    width: 51%;
+  /* border: 1px solid green;     */
+    padding-left: 70px;
+    padding-top: 80px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Righteous', sans-serif;;
+    /* -webkit-box-shadow: 19px -18px 5px 6px rgba(11,8,69,1);
+    -moz-box-shadow: 19px -18px 5px 6px rgba(11,8,69,1);
+    box-shadow: 19px -18px 5px 6px rgba(11,8,69,1);
+     */
+}
+
+.show{
+    transition: ease-in;
+}
+
+
+.logline h2{
+    position: relative;
+    left: 38%;
+}
+
+    h2 span {
+        opacity: 0;
+        display: inline-block;
+        transform: translateY(1em);
+        transition: opacity 0.5s, transform 1s;
+      }
+
+      /* .headermobile{
+        display: none;
+     } */
+
+     .social a{
+        display: none;
+     }
+
+      @media screen and (max-width:985px ) {
+        .menu{
+            font-size: 9px;
+        }
+        .logo{
+            font-size: 28px;
+        }
+       .logline{
+        font-size: 15px;     
+       }
+    .video{
+        height: 20px;
+        width: 100vw;
+        
+    }
+       video{
+          width: 100%;
+        position: relative;
+  align-items: center;
+      }
+    .video h1{
+     display: none;
+  
+    } 
+
+.explore{
+    /* border: 2px solid green; */
+    /* height: 40px; */
+    padding-bottom: 90px;
+}
+
+.img{
+    /* border: 3px solid goldenrod; */
+    position: relative;
+    bottom: 190px;
+}
+.img img{
+    height: 70%;
+    position: relative;
+    top: 28%;
+    /* width: 90px; */
+}
+.button{
+    /* border: 2px solid blue; */
+    height: 190px;
+  
+}
+
+}
+.button button{
+    /* border: 4px solid green; */
+    height: 70%;
+    position: relative;
+    /* bottom: 10%; */
+
+      }
+      
+@media screen  and (max-width:412px){
+     
+    .logo{
+        font-size: 13px;
+    }
+  
+    .menu {
+        font-size: 7px;
+    }
+    .insta{
+       
+        position: relative;
+        bottom: 13px;
+    }
+
+    .logline h2{
+      
+       font-size: 15px;
+    }
+    .logline p{
+
+        font-size: 10px; 
+        width: 140px;
+        position: relative;
+        right: 42%;
+
+    }
+    .video h1{
+        display: none;
+    }
+   .video video{
+ 
+    width: 100%;
+    height: 480px;
+    position: relative;
+    right: 60%;
+   }
+
+
+  .explore{
+  position: relative;
+   bottom: 356px;
+  }
+
+  .explore h1{
+    font-size: 30px;
+  }
+  .img img{
+    height: 100px;
+    width: 60%;
+
+  }
+
+
+  .button {
+height: 319px;
+width: 380px;
+
+  }
+
+    .button button{
+     height: 40px;
+     width: 120px;
+     margin-right: 70px;
+     margin-top: 40px;
+  
+  }
+  a{
+    height: 40px;
+    position: relative;
+    top: 1px;
+    
+    padding-bottom: 19px;
+}
+
+}
+
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+
+
+ .video {
+    width: 100%;
+    height: 90%;
+    padding-top: 10%;
+    overflow: hidden;
+    writing-mode: vertical-lr;
+ }
+
+ video{
+    /* width: 100%; */
+    height: 100%;
+ position: relative;
+ right: 2% ;
+ left: 4%;
+ }
+  
+.video h1{
+    font-size: 130px;
+    background:rgb(11, 11, 80) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+
+
+/* 
+.video{
+    position: relative;
+    top: 80px;
+    margin-right: 50%;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding: 30px;
+    writing-mode: vertical-lr;
+    /* border-radius:  30px; ; */
+    /* background: rgb(7, 7, 21) */
+
+/* }
+
+.video h1{
+    position: relative;
+    right: 45px;
+    top: 60px;
+     color: rgb(6, 6, 54) ;
+ 
+    font-size: 90px;
+   
+}*/
+
+
+/* .poster{
+    margin-top: 80px;
+    border: 2px solid green;
+}
+*/
+/* write here */
+.explore{
+    width: 100%;
+    /* border: 3px solid beige; */
+    text-align: center;
+}
+.explore h1{
+    color: pink;
+    padding: 30px;
+}
+ .img{
+    height: 400px;
+    display: flex;
+     gap: 10px;
+    /* justify-content: space-between; */
+    margin-left: 58%;
+  /* border: 3px solid gray; */
+}
+
+.button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    width: 138px;
+}
+
+.button a ,button{
+ cursor: pointer;
+ height: 70px;
+ width: 130px;
+ color: pink;
+}
+
+ .button{
+    
+    position: relative;
+    top: 250px;
+    /* border: 3px solid green; */
+    width: 40%;
+    padding-left: 18%;
+} 
+a{
+    text-decoration: none;
+}
+button:hover{
+
+   animation: glow 1s infinite;
+    border-radius: 80px;
+} 
+@keyframes glow{
+    0%{
+        box-shadow: 0 0 5px orange;
+        /* border-radius: 150px; */
+    }
+
+    50%{
+       box-shadow: 0 
+        20px , 4 5 30px orangered;
+       /* border-radius: 150px; */
+    }
+
+    100%{
+        box-shadow: 5 0 5px green;
+        /* border-radius: 150px; */
+    }
+}
